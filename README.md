@@ -11,6 +11,10 @@ Powered by SDL3 and MinHook, this ASI plugin intercepts the game's legacy input 
 
 ## Installation
 1. Download the latest `Cricket07InputEx.zip` from the **Releases** tab.
-2. Extract the files (`Cricket07InputEx.asi` and `Cricket07InputEx.ini`) directly into your Cricket 07 root directory (where `cricket07.exe` is located).
-3. *Note: You must have an ASI Loader (like Ultimate ASI Loader) installed in your game directory for the plugin to load.*
+2. Extract the files directly into your Cricket 07 root directory (where `cricket07.exe` is located).
+    <ul><i>Note: You must have an ASI Loader (like Ultimate ASI Loader) installed in your game directory for the plugin to load.</i></ul>
 4. Launch the game.
+
+## Credits
+* **[SDL3 (Simple DirectMedia Layer)](https://github.com/libsdl-org/SDL):** Used for robust, modern XInput and DirectInput hardware mapping. 
+* **[MinHook](https://github.com/TsudaKageyu/minhook):** Used for API hooking to intercept the game's native engine calls.
