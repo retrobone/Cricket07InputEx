@@ -13,6 +13,7 @@ Powered by SDL3 and MinHook, this ASI plugin intercepts the game's legacy input 
 1. Download the latest `Cricket07InputEx.zip` from the **Releases** tab.
 2. Extract the files directly into your Cricket 07 root directory (where `cricket07.exe` is located).
     <ul><i>Note: You must have an ASI Loader (like Ultimate ASI Loader) installed in your game directory for the plugin to load.</i></ul>
+3. To use new icons, extract the same from the zip file
 4. Launch the game.
 
 ## Credits
