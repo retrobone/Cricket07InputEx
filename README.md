@@ -1,4 +1,4 @@
-# Cricket07InputEx
+# Cricket 07 Input Extended
 
 A modern input hook for EA Sports Cricket 07 that brings native plug-and-play support for XInput and DirectInput controllers, restoring Century Stick batting controls from PS2. 
 
