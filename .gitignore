@@ -1,0 +1,37 @@
+# Visual Studio specific files and caches
+.vs/
+*.user
+*.suo
+*.dbmdl
+
+# Build output directories
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+bin/
+
+# Temporary compiler files
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.tlog
+*.log
+*.iobj
+*.ipdb
+
+# Compiled binaries
+*.dll
+*.exe
+*.exp
+*.lib
+
+# EXCEPTIONS
+!libs/**/*.lib
+!libs/**/*.dll
+!vendor/**/*.lib
+!vendor/**/*.dll
