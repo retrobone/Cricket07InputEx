@@ -275,10 +275,11 @@ void __fastcall Hook_CControl_Update(int* pControl, void* edx) {
         // Others
         PushEvent(pControl, (GetAsyncKeyState(VK_ESCAPE) & 0x8000) ? 1 : 0, 4, 4); // Esc
         PushEvent(pControl, (GetAsyncKeyState(VK_RETURN) & 0x8000) ? 1 : 0, 5, 8); // Enter/Return
-        PushEvent(pControl, (GetAsyncKeyState(VK_SHIFT) & 0x8000) ? 1 : 0, 10, 0x100); // Shift
-        PushEvent(pControl, (GetAsyncKeyState('Q') & 0x8000) ? 1 : 0, 11, 0x200); // Q
+        PushEvent(pControl, (GetAsyncKeyState('Q') & 0x8000) ? 1 : 0, 11, 0x100); // Q
         PushEvent(pControl, (GetAsyncKeyState('E') & 0x8000) ? 1 : 0, 13, 0x800); // E
         PushEvent(pControl, (GetAsyncKeyState('X') & 0x8000) ? 1 : 0, 15, 0x2000); // X
+        PushEvent(pControl, (GetAsyncKeyState(VK_LMENU) & 0x8000) ? 1 : 0, 11, 0x200); // LAlt
+        PushEvent(pControl, (GetAsyncKeyState(VK_RMENU) & 0x8000) ? 1 : 0, 14, 0x1000); // RAlt
 
         // Arrow Keys
         bool upPressed = (GetAsyncKeyState(VK_UP) & 0x8000) != 0;
